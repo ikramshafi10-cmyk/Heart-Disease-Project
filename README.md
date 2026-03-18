@@ -19,10 +19,16 @@ Features may include:
 
 1.Age
 2.Sex
-3.Blood Pressure
-4.Cholesterol levels
-5.Chest pain type
-6.Maximum heart rate
+3.RestingBP
+4.ChestPainType
+5.Cholesterol
+6.FastingBS
+7.RestingECG
+8.MaxHR
+9.ExerciseAngina
+10.Oldpeak
+11.ST_Slope
+12.HeartDisease
 
 Target: heart disease / not heart disease
 
@@ -40,13 +46,14 @@ Jupyter Notebook / VS Code
 
 1.Logistic Regression
 2.Decision Tree
-3.Random Forest
+3.GaussianNB
 4.Support Vector Machine (SVM)
+5.KNN
 
 📈 Results
 
-Accuracy: XX% (replace with your result)
-Best Model: (mention model)
+Accuracy: 88%
+Best Model: (SVM)
 Observations:
 High cholesterol and age are major factors.
 
